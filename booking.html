@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Vlad Kebab</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Free Website Template" name="keywords" />
+    <meta content="Free Website Template" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito:600,700"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Libraries -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Nav Bar Start -->
+    <div class="navbar navbar-expand-lg bg-light navbar-light">
+      <div class="container-fluid">
+        <img src="img/logo.png" alt="" />
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarCollapse"
+        >
+          <div class="navbar-nav ml-auto">
+            <a href="index.html" class="nav-item nav-link active">Acasă</a>
+            <a href="about.html" class="nav-item nav-link">Despre Noi</a>
+            <a href="feature.html" class="nav-item nav-link">Avantaje</a>
+            <a href="team.html" class="nav-item nav-link">Bucătari</a>
+            <a href="menu.html" class="nav-item nav-link">Meniu</a>
+            <a href="booking.html" class="nav-item nav-link">Rezervare</a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Nav Bar End -->
+
+    <!-- Page Header Start -->
+    <div class="page-header mb-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>Rezervare</h2>
+          </div>
+          <div class="col-12">
+            <a href="">Acasă</a>
+            <a href="">Rezervare</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Booking Start -->
+    <div class="booking">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <div class="booking-content">
+              <div class="section-header">
+                <p>Rezervare</p>
+                <h2>
+                  Rezervă o masă în localul nostru pentru o aventură culinară
+                  deosebită!
+                </h2>
+              </div>
+              <div class="about-text">
+                <p>
+                  Te invităm să descoperi savoarea autentică într-o atmosferă
+                  primitoare la Vlad Kebab! Rezervă acum o masă și bucură-te de
+                  preparatele noastre delicioase, pregătite cu grijă din cele
+                  mai bune ingrediente. Transformă fiecare masă într-o
+                  experiență culinară memorabilă, alături de cei dragi. Îți
+                  garantăm arome care te vor cuceri de la prima gustare!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="booking-form">
+              <form action="booking.php" method="POST">
+                <div class="control-group">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    placeholder="Nume"
+                    required
+                  />
+                </div>
+                <div class="control-group">
+                  <input
+                    type="email"
+                    name="email"
+                    class="form-control"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+                <div class="control-group">
+                  <input
+                    type="text"
+                    name="phone"
+                    class="form-control"
+                    placeholder="Mobil"
+                    required
+                  />
+                </div>
+                <div class="control-group">
+                  <input
+                    type="date"
+                    name="date"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="control-group">
+                  <input
+                    type="time"
+                    name="time"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="control-group">
+                  <select
+                    name="guests"
+                    class="custom-select form-control"
+                    required
+                  >
+                    <option selected disabled>Persoane</option>
+                    <option value="1">1 Persoană</option>
+                    <option value="2">2 Persoane</option>
+                    <option value="2">3 Persoane</option>
+                    <option value="2">4 Persoane</option>
+                    <option value="2">5 Persoane</option>
+                    <option value="2">6 Persoane</option>
+                    <!-- Add more options as needed -->
+                  </select>
+                </div>
+                <button class="btn custom-btn" type="submit">
+                  Rezervă acum
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Booking End -->
+
+    <!-- Menu Start -->
+    <div class="menu">
+      <div class="container">
+        <div class="section-header text-center">
+          <p>Meniu</p>
+          <h2>Alege cele mai bune preparate!</h2>
+        </div>
+        <div class="menu-tab">
+          <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="pill" href="#burgers"
+                >Kebab</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#snacks">Shaorma</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#beverages"
+                >Băuturi</a
+              >
+            </li>
+          </ul>
+          <div class="tab-content">
+            <div id="burgers" class="container tab-pane active">
+              <div class="row">
+                <div class="col-lg-7 col-md-12">
+                  <div class="menu-item">
+                    <div class="menu-img">
+                      <img src="img/s2.png" alt="Image" />
+                    </div>
+                    <div class="menu-text">
+                      <h3>
+                        <span>Kebab de pui cu Hummus</span>
+                        <strong>25 RON</strong>
+                      </h3>
+                      <p>
+                        Carne fragedă de pui, legume proaspete, hummus, măsline
+                      </p>
+                    </div>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-img">
+                      <img src="img/s4.png" alt="Image" />
+                    </div>
+                    <div class="menu-text">
+                      <h3>
+                        <span>Kebab de vită</span> <strong>30 RON</strong>
+                      </h3>
+                      <p>
+                        Carne suculentă de vită, sos "Vlad Kebab", legume
+                        proaspete, cartofi prăjiți, pita.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-img">
+                      <img src="img/s6.png" alt="Image" />
+                    </div>
+                    <div class="menu-text">
+                      <h3>
+                        <span>Kebab de miel</span>
+                        <strong>30 RON</strong>
+                      </h3>
+                      <p>
+                        Carne de miel marinată în sos special, legume proaspete,
+                        orez cu turmeric și sumac.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-img">
+                      <img src="img/f1.png" alt="Image" />
+                    </div>
+                    <div class="menu-text">
+                      <h3>
+                        <span>Platou Falafel</span> <strong>25 RON</strong>
+                      </h3>
+                      <p>Falafel, legume proaspete, hummus, pita.</p>
+                    </div>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-img">
+                      <img
+                        src="img/a table filled with oriental dishes such as shawarma, kebabs, falafel, hummus, baklava.png"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="menu-text">
+                      <h3>
+                        <span>"Vlad Kebab"</span>
+                        <strong>80 RON</strong>
+                      </h3>
+                      <p>Un platou pentru toată lumea!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5 d-none d-lg-block">
+                  <img src="img/k2.png" alt="Image" />
+                </div>
+              </div>
+            </div>
+            <div id="snacks" class="container tab-pane fade">
+              <div class="row">
+                <div class="col-lg-7 col-md-12">
+                  <div class="menu-item">
+                    <div class="menu-img">
+                      <img src="img/s3.png" alt="Image" />
+                    </div>
+                    <div class="menu-text">
+                      <h3>
+                        <span>Shaorma de pui</span>
+                        <strong>19 RON</strong>
+                      </h3>
+                      <p>
+                        Carne de pui, legume proaspete, maioneză cu usturoi,
+                        lipie, cartofi prăjiți.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-img">
+                      <img src="img/s5.png" alt="Image" />
+                    </div>
+                    <div class="menu-text">
+                      <h3>
+                        <span>Shaorma de vită</span> <strong>21 RON</strong>
+                      </h3>
+                      <p>
+                        Lorem ipsum dolor sit amet elit. Phasel nec preti facil
+                      </p>
+                    </div>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-img">
+                      <img src="img/s7.png" alt="Image" />
+                    </div>
+                    <div class="menu-text">
+                      <h3>
+                        <span>Shaorma mix</span>
+                        <strong>21 RON</strong>
+                      </h3>
+                      <p>
+                        Lorem ipsum dolor sit amet elit. Phasel nec preti facil
+                      </p>
+                    </div>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-img">
+                      <img src="img/s8.png" alt="Image" />
+                    </div>
+                    <div class="menu-text">
+                      <h3>
+                        <span>Shaorma de oaie</span>
+                        <strong>21 RON</strong>
+                      </h3>
+                      <p>
+                        Lorem ipsum dolor sit amet elit. Phasel nec preti facil
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5 d-none d-lg-block">
+                  <img src="img/s5.png" alt="Image" />
+                </div>
+              </div>
+            </div>
+            <div id="beverages" class="container tab-pane fade">
+              <div class="row">
+                <div class="col-lg-7 col-md-12">
+                  <div class="menu-item">
+                    <div class="menu-img">
+                      <img src="img/b1.png" alt="Image" />
+                    </div>
+                    <div class="menu-text">
+                      <h3><span>Coca Cola</span> <strong>10 RON</strong></h3>
+                      <p></p>
+                    </div>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-img">
+                      <img src="img/b2.png" alt="Image" />
+                    </div>
+                    <div class="menu-text">
+                      <h3><span>Mountain Dew</span> <strong>10 RON</strong></h3>
+                      <p></p>
+                    </div>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-img">
+                      <img src="img/b3.png" alt="Image" />
+                    </div>
+                    <div class="menu-text">
+                      <h3><span>Fanta</span> <strong>10 RON</strong></h3>
+                      <p></p>
+                    </div>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-img">
+                      <img src="img/b4.png" alt="Image" />
+                    </div>
+                    <div class="menu-text">
+                      <h3>
+                        <span>Gatorade</span>
+                        <strong>10 RON</strong>
+                      </h3>
+                      <p></p>
+                    </div>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-img">
+                      <img src="img/b5.png" alt="Image" />
+                    </div>
+                    <div class="menu-text">
+                      <h3>
+                        <span>Suc de rodii</span>
+                        <strong>10 RON</strong>
+                      </h3>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5 d-none d-lg-block">
+                  <img src="img/b3.png" alt="Image" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Menu End -->
+
+    <!-- Footer Start -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="footer-contact">
+                  <h2>Adresa noastră</h2>
+                  <p>
+                    <i class="fa fa-map-marker-alt"></i>Strada Sfântul Teodor
+                    13-11
+                  </p>
+                  <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
+                  <p><i class="fa fa-envelope"></i>contact@vladkebab.ro</p>
+                  <div class="footer-social">
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="footer-link">
+                  <h2>Quick Links</h2>
+                  <a href="">Terms of use</a>
+                  <a href="">Privacy policy</a>
+                  <a href="">Cookies</a>
+                  <a href="">Help</a>
+                  <a href="">FQAs</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="footer-newsletter">
+              <h2>Newsletter</h2>
+              <p>
+                Rămâi conectat cu Vlad Kebab! Urmărește-ne pe rețelele sociale
+                și abonează-te la newsletter-ul nostru pentru a fi la curent cu
+                toate noutățile și promoțiile exclusive.
+              </p>
+              <div class="form">
+                <input class="form-control" placeholder="Email" />
+                <button class="btn custom-btn">Trimite</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <p>
+            Copyright &copy; <a href="#">Vlad Kebab</a>, All Right Reserved.
+          </p>
+          <p>Designed By <a href="#">Cozma Vlad</a></p>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
